@@ -1,14 +1,14 @@
 # Agentic AI Developer Day Taipei 2025 ADK Workshop
 
-This repository contains projects for the Agentic AI Developer Day 2025 Taipei ADK Workshop. It features two distinct agents developed using the Google Agent Development Kit (ADK).
+This is a practice project for the Google ADK (Agent Development Kit). It features two distinct agents developed using the Google Agent Development Kit (ADK).
 
-## 🤖 Available Agents
+## Available Agents
 
 ### 1. 記帳代理人 (Accounting Agent)
 
 The `account_agent` is a conversational AI agent designed to act as a personal accounting assistant, helping users manage their financial transactions through natural language commands.
 
-#### ✨ Features
+#### Features
 
 - **Transaction Management (CRUD):**
   - **Create:** Record new income or expenses.
@@ -20,7 +20,7 @@ The `account_agent` is a conversational AI agent designed to act as a personal a
 - **Smart Analysis:**
   - Performs in-memory calculations to provide financial summaries, such as monthly spending by category, without needing a dedicated analysis tool.
 
-#### 🛠️ Tools
+#### Tools
 
 - `add_transaction(date, description, amount, category)`
 - `get_transactions(transaction_id, category)`
@@ -32,18 +32,18 @@ The `account_agent` is a conversational AI agent designed to act as a personal a
 
 The `google_blog_news_agent` is an agent that fetches and searches for news articles from the official Google Taiwan blog based on user-provided keywords.
 
-#### ✨ Features
+#### Features
 
 - **Keyword-Based Search:** Searches for articles on the Google Taiwan blog that match a specific keyword.
 - **HTML Stripping:** Cleans up the summary content by removing HTML tags for better readability.
 - **Time Queries:** Can provide the current time in any IANA timezone.
 
-#### 🛠️ Tools
+#### Tools
 
 - `get_google_blog_news(keyword, max_results)`
 - `get_current_time(timezone_str)`
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -77,7 +77,7 @@ The `google_blog_news_agent` is an agent that fetches and searches for news arti
     adk web
     ```
 
-## 📝 Usage
+## Usage
 
 These agents are designed to be run within the ADK framework. Once running, you can interact with them using natural language in the ADK web interface. Select the agent you wish to interact with from the UI.
 
