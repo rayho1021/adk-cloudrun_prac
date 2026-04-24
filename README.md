@@ -1,6 +1,6 @@
 # Agentic AI Developer Day Taipei 2025 ADK Workshop
 
-This is a practice project for the Google ADK (Agent Development Kit). It features two distinct agents developed using the Google Agent Development Kit (ADK).
+This is a practice project for the Google ADK. It features two distinct agents developed using the Google Agent Development Kit (ADK).
 
 ## Available Agents
 
