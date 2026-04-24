@@ -54,7 +54,7 @@ The `google_blog_news_agent` is an agent that fetches and searches for news arti
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/LiuYuWei/agentic-ai-developer-day-2025-adk-workshop.git
+    git clone https://github.com/rayho1021/adk-cloudrun_prac.git
     cd agentic-ai-developer-day-2025-adk-workshop
     ```
 
